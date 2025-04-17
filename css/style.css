@@ -33,7 +33,7 @@ footer{
     width: 100%;
 }
 
-/* pour adapter a la taille de l'ecran*/
+/* pour adapter a la taille de l'ecran ( mobile )*/
 body {
     font-size: 18px;
     display: flex;
