@@ -7,31 +7,30 @@ body{
     
 }
 header{
-    background: lightblue;
+    background: rgb(116, 158, 172);
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-h1,
 form{
-    background: coral;
+    background: rgb(255, 68, 0);
     min-height: 2em;
     width: 16.789%;
 }
 nav{
-    background: lightgreen;
+    background: rgb(0, 255, 0);
     width: 100%;
 }
 main{
-    background: red;
+    background: rgb(255, 0, 0);
     width: 70%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap; /* permet retour à la ligne */
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 article{
-    background: lightyellow;
+    background: rgb(255, 255, 0);
     width: 30%;
 }
 article img{
@@ -41,6 +40,6 @@ article p{
     margin: 2em 0;
 }
 footer{
-    background: lightpink;
+    background: rgb(16, 219, 255);
     width: 100%;
 }
