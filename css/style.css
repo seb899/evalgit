@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 4em;
+}
+body{
+    
+}
+header{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1,
+form{
+    background: coral;
+    min-height: 2em;
+    width: 16.789%;
+}
+nav{
+    background: lightgreen;
+    width: 100%;
+}
+main{
+    background: red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* permet retour à la ligne */
+    justify-content: space-evenly;
+}
+article{
+    background: lightyellow;
+    width: 30%;
+}
+article img{
+    width: 100%;
+}
+article p{
+    margin: 2em 0;
+}
+footer{
+    background: lightpink;
+    width: 100%;
+}
